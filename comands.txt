@@ -3,7 +3,7 @@ Initialize git repository. Create .git file in the directory
 
 git config --global user.name ""
 
-git config --global user,email ""
+git config --global user.email ""
 
 git add file
 git status
@@ -14,6 +14,7 @@ touch .gitignore > names in the .gitignore file will not be staged
 
 touch log.txt >  
 
+<<<<<<< HEAD
 git branch "name of branch" > create a new branch. Default branch is master branch
 
 git checkout "branchname" > Log into the branch.
@@ -22,4 +23,11 @@ Changes made in the branch is not saved in the master branch unless git merge "B
 
 git merge "Branch name" > merge changes made in other branch to the master branch.
 
+=======
+git branch "Name of Branch" > Create new local branch
+
+git checkout "Name of branch"
+
+git clone "repository of url" > clone the git repository
+>>>>>>> setup
 
