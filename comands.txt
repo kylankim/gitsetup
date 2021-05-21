@@ -1,0 +1,11 @@
+git init
+Initialize git repository. Create .git file in the directory
+
+git config --global user.name ""
+
+git config --global user,email ""
+
+git add file
+git status
+git rm --cached file > untrack file
+git add . > Add all file
