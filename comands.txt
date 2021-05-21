@@ -13,3 +13,13 @@ git add . > Add all file
 touch .gitignore > names in the .gitignore file will not be staged
 
 touch log.txt >  
+
+git branch "name of branch" > create a new branch. Default branch is master branch
+
+git checkout "branchname" > Log into the branch.
+
+Changes made in the branch is not saved in the master branch unless git merge "Branch name"
+
+git merge "Branch name" > merge changes made in other branch to the master branch.
+
+
