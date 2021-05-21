@@ -1,0 +1,2 @@
+# gitsetup
+Setting up github
