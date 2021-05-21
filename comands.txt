@@ -3,7 +3,7 @@ Initialize git repository. Create .git file in the directory
 
 git config --global user.name ""
 
-git config --global user,email ""
+git config --global user.email ""
 
 git add file
 git status
@@ -13,3 +13,10 @@ git add . > Add all file
 touch .gitignore > names in the .gitignore file will not be staged
 
 touch log.txt >  
+
+git branch "Name of Branch" > Create new local branch
+
+git checkout "Name of branch"
+
+git clone "repository of url" > clone the git repository
+
